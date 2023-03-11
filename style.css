@@ -1,6 +1,86 @@
-/* Common css start here */
-*{
-    padding: 0;
-    margin: 0;
+body{
+    background-color: #1a1a1a;
 }
-/* common css ends here */
+/* Header css start here */
+header{
+    background-image: url("header_image.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 8%;
+}
+.logo{text-align: center;}
+
+ul{display: flex;}
+
+li{list-style: none;padding: 20px; color: white;}
+
+a{color: white;text-decoration: none; padding: 8px;}
+
+a:hover
+{
+    background-color:#5a5961;
+    border-radius: 30%;
+    text-decoration: none;
+    color: white;    
+}
+.header_col_first-content{
+    height: 50%;
+    width: 10px;
+}
+.first_button{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.black_div{
+    background-color: #1a1a1a;
+    padding-bottom: 50px;
+}
+/* Header csss ends here */
+
+/* Section css start here */
+section{
+    background-color:rgba(255,175,60,255);
+}
+.section_row2
+{
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+}
+.section_content{
+    padding: 50px
+}
+/* section css ends here */
+
+/* footer css start here */
+
+.lorem{
+   text-align:inherit;
+    width: 60%;
+}
+footer{
+    padding-top: 5%;
+    background-image: url("footer_image.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 35%;
+}
+.lorem{
+    border-top: 2px solid black;
+    padding-bottom: 10px;
+}
+.footer_row{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.last_buttons{
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    border-radius: 50px;
+    margin-top: 30px;
+
+    border: 2px solid black;
+}
+/* footer css ends here */
